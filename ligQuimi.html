@@ -1,0 +1,20 @@
+<script>
+
+    //ENTRADA
+    const nuvensEletronicas = Number(prompt(`Insira a quantidade de nuvens eletrônicas que há na molécula:`))
+    const paresEletrons = Number(prompt(`Quantas dessas nuvens eletrônicas são pares de elétrons? `))
+
+    //PROCESSAMENTO
+    if (nuvensEletronicas === 2 && paresEletrons === 0) {
+        alert(`Geometria molecular linear`)
+    } else if (nuvensEletronicas === 4 && paresEletrons === 2) {
+        alert(`Geometria molecular angular`)
+    } else if (nuvensEletronicas === 3 && paresEletrons === 0) {
+        alert(`Geometria molecular trigonal plana`)
+    } else if (nuvensEletronicas === 4 && paresEletrons === 1) {
+        alert(`Geometria molecular piramidal`)
+    } else if (nuvensEletronicas === 4 && paresEletrons === 0) {
+        alert(`Geometria molecular tetraédrica`)
+    }
+
+</script>

@@ -1,0 +1,28 @@
+<script>
+//ENTRADA
+const atomosLigantes = Number(prompt(`Insira a quantidade de átomos ligantes ao átomo central de sua molécula: `)) 
+const paresEletrons = (prompt(`Há pares de elétrons que sobram no átomo central? (s-sim|n-não)`)).toLowerCase()
+
+//PROCESSAMENTO
+if (atomosLigantes === 1 && paresEletrons === `n`) {
+    alert(`Geometria molecular linear`)
+} else if (atomosLigantes === 2 && paresEletrons === `n`) {
+    alert (`Geometria molecular linear`) 
+} else if (atomosLigantes === 2 && paresEletrons === `s`) {
+    alert(`Geometria molecular angular`)
+} else if (atomosLigantes === 3 && paresEletrons === `n`) {
+    alert(`Geomtria molecular trigonal plana`)
+} else if (atomosLigantes === 3 && paresEletrons === `s`) {
+    alert(`Geometria molecular piramidal.`)
+} else if(atomosLigantes === 4 && paresEletrons === `n`) {
+    alert(`Geometria molecular tetraédrica.`)
+}
+
+
+
+
+
+
+
+
+</script>
